@@ -121,7 +121,7 @@ Android & AI Enthusiast
 - Build a scalable heritage-tech solution
 - Portfolio-ready GenAI project
 
----
+
 
 # 📄 License
 
