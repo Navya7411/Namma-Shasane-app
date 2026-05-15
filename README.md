@@ -13,15 +13,15 @@ This project focuses on preserving Karnataka’s rich historical legacy while pr
 ✨ Key Features
 📷 Inscription Detection
 Capture or upload photos of historical stone inscriptions.
-🌐 AI-Based Translation
+🌐 AI-Based Translation   
 Translate ancient inscriptions into modern Kannada/English.
-🗺️ Interactive Heritage Mapping
+🗺️ Interactive Heritage Mapping   
 View nearby documented inscriptions using GPS integration.
-🏺 Cultural Story View
+🏺 Cultural Story View   
 Learn historical context, dynasty details, and significance.
-🚨 Preservation Reporting
+🚨 Preservation Reporting     
 Report damaged or endangered heritage stones.
-🔍 Search & Discovery
+🔍 Search & Discovery  
 Explore inscriptions by location, dynasty, or keywords.
 🛠️ Tech Stack
 Mobile Development
