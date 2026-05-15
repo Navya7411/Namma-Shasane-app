@@ -3,7 +3,7 @@
 
 An innovative Android application designed to identify, translate, preserve, and digitally map Karnataka’s historical stone inscriptions (“Shasanas”) using Artificial Intelligence and interactive heritage mapping.
 
----
+
 
 # 📌 Overview
 
@@ -13,7 +13,7 @@ The application allows users to discover nearby inscriptions, capture and upload
 
 This project focuses on preserving Karnataka’s rich historical legacy while promoting awareness, tourism, and digital accessibility.
 
----
+
 
 # ✨ Key Features
 
@@ -35,7 +35,7 @@ This project focuses on preserving Karnataka’s rich historical legacy while pr
 ## 🔍 Search & Discovery
 - Explore inscriptions by location, dynasty, or keywords.
 
----
+
 
 # 🛠️ Tech Stack
 
@@ -57,7 +57,7 @@ This project focuses on preserving Karnataka’s rich historical legacy while pr
 - Google Maps API
 - GPS Location Services
 
----
+
 
 # 📱 Application Workflow
 
@@ -68,7 +68,7 @@ This project focuses on preserving Karnataka’s rich historical legacy while pr
 5. Location is added to the heritage map.
 6. Users can report preservation issues.
 
----
+
 
 # 🎯 Project Objectives
 
@@ -78,7 +78,7 @@ This project focuses on preserving Karnataka’s rich historical legacy while pr
 - Encourage tourism through historical mapping.
 - Demonstrate practical GenAI integration in Android development.
 
----
+
 
 # 🚀 Future Enhancements
 
@@ -89,7 +89,7 @@ This project focuses on preserving Karnataka’s rich historical legacy while pr
 - AR-based historical visualization
 - Voice narration for inscriptions
 
----
+
 
 # 📊 Impact
 
@@ -105,7 +105,7 @@ Highlights heritage locations across Karnataka.
 ## Digital Innovation
 Combines AI, mapping, and mobile technology for social impact.
 
----
+
 
 # 👨‍💻 Developed By
 
