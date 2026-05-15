@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_bg_primary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Warning icon header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_alert"
+                app:tint="@color/status_at_risk"
+                android:contentDescription="Alert" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alert_title"
+                    android:textColor="@color/amber_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/alert_subtitle"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:lineSpacingMultiplier="1.3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Location field -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_location_label"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_location_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="@color/amber_primary"
+            app:hintTextColor="@color/text_secondary"
+            app:boxBackgroundColor="@color/dark_bg_card">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alert_location_hint"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_muted"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Urgency selector -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_urgency_label"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/urgency_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/urgency_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urgency_low"
+                android:textColor="@color/text_secondary"
+                android:buttonTint="@color/text_secondary"
+                android:padding="4dp" />
+
+            <RadioButton
+                android:id="@+id/urgency_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urgency_medium"
+                android:textColor="@color/amber_primary"
+                android:buttonTint="@color/amber_primary"
+                android:padding="4dp"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/urgency_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urgency_high"
+                android:textColor="@color/status_at_risk"
+                android:buttonTint="@color/status_at_risk"
+                android:padding="4dp" />
+        </RadioGroup>
+
+        <!-- Damage description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_damage_label"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_damage_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="@color/amber_primary"
+            app:hintTextColor="@color/text_secondary"
+            app:boxBackgroundColor="@color/dark_bg_card">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_damage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alert_damage_hint"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_muted"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:maxLines="5"
+                android:gravity="top" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Contact field -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_contact_label"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_contact_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="@color/amber_primary"
+            app:hintTextColor="@color/text_secondary"
+            app:boxBackgroundColor="@color/dark_bg_card">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alert_contact_hint"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_muted"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Photo evidence button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add_photo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/alert_photo_btn"
+            android:textColor="@color/amber_primary"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="@color/amber_primary"
+            app:strokeWidth="1dp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/ic_camera"
+            app:iconTint="@color/amber_primary"
+            app:iconGravity="start"
+            app:iconPadding="8dp" />
+
+        <!-- Photo preview area (hidden until photo added) -->
+        <FrameLayout
+            android:id="@+id/photo_preview_container"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_decode_camera_area"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Photo preview"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp" />
+        </FrameLayout>
+
+        <!-- Submit button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/alert_submit_btn"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_bg_primary"
+            app:backgroundTint="@color/status_at_risk"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/ic_alert"
+            app:iconTint="@color/white"
+            app:iconGravity="start"
+            app:iconPadding="8dp" />
+
+        <!-- Disclaimer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Reports are forwarded to the Archaeological Survey of India and the Karnataka State Heritage Commission."
+            android:textColor="@color/text_muted"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.4" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary dark background tones -->
+    <color name="dark_bg_primary">#1A0F00</color>
+    <color name="dark_bg_secondary">#2C1810</color>
+    <color name="dark_bg_card">#3D2314</color>
+    <color name="dark_bg_elevated">#4A2E1A</color>
+
+    <!-- Amber/Gold accent tones -->
+    <color name="amber_primary">#C8A86B</color>
+    <color name="amber_light">#F5DEB3</color>
+    <color name="amber_dark">#8B6914</color>
+    <color name="amber_deep">#D4A017</color>
+
+    <!-- Status colors for inscription markers -->
+    <color name="status_found">#FF8C00</color>       <!-- Orange - Found -->
+    <color name="status_verified">#228B22</color>     <!-- Green - Verified/Preserved -->
+    <color name="status_at_risk">#CC2200</color>      <!-- Red - At Risk -->
+    <color name="status_museum">#1565C0</color>       <!-- Blue - Museum -->
+
+    <!-- Chip/tag colors -->
+    <color name="chip_century_bg">#4A3728</color>
+    <color name="chip_century_text">#C8A86B</color>
+    <color name="chip_type_bg">#1A3A3A</color>
+    <color name="chip_type_text">#4DD0E1</color>
+    <color name="chip_preserved_bg">#1A3A1A</color>
+    <color name="chip_preserved_text">#66BB6A</color>
+    <color name="chip_atrisk_bg">#3A1A1A</color>
+    <color name="chip_atrisk_text">#EF5350</color>
+    <color name="chip_museum_bg">#1A1A3A</color>
+    <color name="chip_museum_text">#5C9BF5</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#F5DEB3</color>
+    <color name="text_secondary">#C8A86B</color>
+    <color name="text_muted">#8B7355</color>
+    <color name="text_on_dark">#FFFFFF</color>
+
+    <!-- Map tile colors -->
+    <color name="map_tile_light">#3D2E1F</color>
+    <color name="map_tile_dark">#2C1F10</color>
+    <color name="map_grid_line">#4A3728</color>
+    <color name="map_water">#1A2A3A</color>
+
+    <!-- UI elements -->
+    <color name="divider_color">#4A3728</color>
+    <color name="icon_tint">#C8A86B</color>
+    <color name="bottom_nav_bg">#2C1810</color>
+    <color name="bottom_nav_selected">#C8A86B</color>
+    <color name="bottom_nav_unselected">#8B7355</color>
+    <color name="header_bg">#2C1810</color>
+
+    <!-- White and transparent -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay_dark">#AA000000</color>
+</resources>

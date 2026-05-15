@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_chip_century.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_chip_century.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_upload.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_upload.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_chip_museum.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_chip_museum.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_fragment_alert.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_alert.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_fragment_stories.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_stories.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/color_bottom_nav_icon_selector.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/color/bottom_nav_icon_selector.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_card_dark.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_card_dark.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_marker_verified.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_marker_verified.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_location_pin.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_location_pin.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/navigation_nav_graph.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_marker_atrisk.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_marker_atrisk.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_chip_type.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_chip_type.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_item_story.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_stone.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_stone.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_fragment_find.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_find.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_find.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_find.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_logo_circle.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_logo_circle.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_decode.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_decode.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_fragment_decode.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_decode.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_decode_camera_area.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_decode_camera_area.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_stories.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_stories.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_item_inscription.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/item_inscription.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_chip_atrisk.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_chip_atrisk.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_temple.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_temple.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_inscription_thumb.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_inscription_thumb.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_gate.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_gate.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_warning_stone.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_warning_stone.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_legend_card.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_legend_card.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_trail.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_trail.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_chip_preserved.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_chip_preserved.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_header.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_header.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/layout_fragment_trail.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_trail.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_bg_marker_found.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/bg_marker_found.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_camera.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-merged_res-49:/drawable_ic_alert.xml.flat",
+        "source": "com.namma.shasane.app-main-51:/drawable/ic_alert.xml"
+    }
+]

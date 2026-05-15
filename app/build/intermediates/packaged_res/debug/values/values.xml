@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amber_dark">#8B6914</color>
+    <color name="amber_deep">#D4A017</color>
+    <color name="amber_light">#F5DEB3</color>
+    <color name="amber_primary">#C8A86B</color>
+    <color name="black">#000000</color>
+    <color name="bottom_nav_bg">#2C1810</color>
+    <color name="bottom_nav_selected">#C8A86B</color>
+    <color name="bottom_nav_unselected">#8B7355</color>
+    <color name="chip_atrisk_bg">#3A1A1A</color>
+    <color name="chip_atrisk_text">#EF5350</color>
+    <color name="chip_century_bg">#4A3728</color>
+    <color name="chip_century_text">#C8A86B</color>
+    <color name="chip_museum_bg">#1A1A3A</color>
+    <color name="chip_museum_text">#5C9BF5</color>
+    <color name="chip_preserved_bg">#1A3A1A</color>
+    <color name="chip_preserved_text">#66BB6A</color>
+    <color name="chip_type_bg">#1A3A3A</color>
+    <color name="chip_type_text">#4DD0E1</color>
+    <color name="dark_bg_card">#3D2314</color>
+    <color name="dark_bg_elevated">#4A2E1A</color>
+    <color name="dark_bg_primary">#1A0F00</color>
+    <color name="dark_bg_secondary">#2C1810</color>
+    <color name="divider_color">#4A3728</color>
+    <color name="header_bg">#2C1810</color>
+    <color name="icon_tint">#C8A86B</color>
+    <color name="map_grid_line">#4A3728</color>
+    <color name="map_tile_dark">#2C1F10</color>
+    <color name="map_tile_light">#3D2E1F</color>
+    <color name="map_water">#1A2A3A</color>
+    <color name="overlay_dark">#AA000000</color>
+    <color name="status_at_risk">#CC2200</color>
+    <color name="status_found">#FF8C00</color>
+    <color name="status_museum">#1565C0</color>
+    <color name="status_verified">#228B22</color>
+    <color name="text_muted">#8B7355</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_primary">#F5DEB3</color>
+    <color name="text_secondary">#C8A86B</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="alert_contact_hint">Phone or email for follow-up</string>
+    <string name="alert_contact_label">Your Contact (Optional)</string>
+    <string name="alert_damage_hint">Describe the type and extent of damage observed</string>
+    <string name="alert_damage_label">Damage Description</string>
+    <string name="alert_location_hint">e.g. Hampi, Ballari District</string>
+    <string name="alert_location_label">Location / Site Name</string>
+    <string name="alert_photo_btn">Add Photo Evidence</string>
+    <string name="alert_submit_btn">Submit Report</string>
+    <string name="alert_subtitle">Help preserve Karnataka\'s heritage by reporting damaged or at-risk inscriptions</string>
+    <string name="alert_success_msg">Thank you for helping protect Karnataka\'s heritage. The Archaeological Survey will be notified.</string>
+    <string name="alert_success_title">Report Submitted</string>
+    <string name="alert_title">Report Damaged Inscription</string>
+    <string name="alert_urgency_label">Urgency Level</string>
+    <string name="app_name">Namma-Shasane</string>
+    <string name="app_subtitle">ನಮ್ಮ ಶಾಸನ · Inscription Decoder</string>
+    <string name="btn_camera">Scan with Camera</string>
+    <string name="btn_upload">Upload Photo</string>
+    <string name="century_suffix">th Century</string>
+    <string name="decode_subtitle">Use your camera or upload a photo to decode ancient inscriptions using AI</string>
+    <string name="decode_supported">Supported Scripts: Old Kannada · Grantha · Brahmi · Telugu</string>
+    <string name="decode_tip_1">Point your camera at an inscription or upload a clear photo</string>
+    <string name="decode_tip_2">Our AI analyzes the script — Kannada, Sanskrit, Prakrit, Tamil</string>
+    <string name="decode_tip_3">Get the translation, historical context, and dynasty information</string>
+    <string name="decode_tip_title">How it works</string>
+    <string name="decode_title">Decode Inscription</string>
+    <string name="found_count">5 FOUND</string>
+    <string name="km_away">km away</string>
+    <string name="legend_at_risk">At Risk</string>
+    <string name="legend_found">Found</string>
+    <string name="legend_verified">Verified</string>
+    <string name="loading">Loading…</string>
+    <string name="location_aihole">Aihole, Bagalkot District</string>
+    <string name="location_belur">Belur, Hassan District</string>
+    <string name="location_hampi">Hampi, Ballari District</string>
+    <string name="location_shravanabelagola">Shravanabelagola, Hassan District</string>
+    <string name="location_sringeri">Sringeri, Chikkamagaluru District</string>
+    <string name="map_title">Heritage Map</string>
+    <string name="nav_alert">Alert</string>
+    <string name="nav_decode">Decode</string>
+    <string name="nav_find">Find</string>
+    <string name="nav_stories">Stories</string>
+    <string name="nav_trail">Trail</string>
+    <string name="nearby_inscriptions">NEARBY INSCRIPTIONS</string>
+    <string name="no_results">No inscriptions found nearby</string>
+    <string name="stories_subtitle">Historical tales decoded from Karnataka\'s ancient stones</string>
+    <string name="stories_title">INSCRIPTION STORIES</string>
+    <string name="trail_distance_label">Total Distance</string>
+    <string name="trail_duration_label">Est. Duration</string>
+    <string name="trail_sites">Heritage Sites</string>
+    <string name="trail_start">Start Trail</string>
+    <string name="trail_subtitle">Plan your journey through Karnataka\'s inscription sites</string>
+    <string name="trail_title">Heritage Trail</string>
+    <string name="urgency_high">High — Immediate Action Needed</string>
+    <string name="urgency_low">Low</string>
+    <string name="urgency_medium">Medium</string>
+    <style name="BottomNavStyle.NammaShasane" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/bottom_nav_bg</item>
+        <item name="itemIconTint">@color/bottom_nav_icon_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_icon_selector</item>
+    </style>
+    <style name="ButtonStyle.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/amber_primary</item>
+        <item name="android:textColor">@color/dark_bg_primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ButtonStyle.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/amber_primary</item>
+        <item name="android:textColor">@color/amber_primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="CardStyle.NammaShasane" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/dark_bg_card</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeColor">@color/divider_color</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="TextInputStyle.NammaShasane" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/amber_primary</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_muted</item>
+        <item name="boxBackgroundColor">@color/dark_bg_card</item>
+        <item name="errorTextColor">@color/status_at_risk</item>
+    </style>
+    <style name="TextStyle" parent="android:Widget.TextView">
+    </style>
+    <style name="TextStyle.InscriptionTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextStyle.SectionHeader">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/amber_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextStyle.Subtitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.NammaShasane" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/amber_primary</item>
+        <item name="colorPrimaryVariant">@color/amber_dark</item>
+        <item name="colorOnPrimary">@color/dark_bg_primary</item>
+
+        
+        <item name="colorSecondary">@color/amber_light</item>
+        <item name="colorOnSecondary">@color/dark_bg_primary</item>
+
+        
+        <item name="android:colorBackground">@color/dark_bg_primary</item>
+        <item name="colorSurface">@color/dark_bg_secondary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        
+        <item name="android:statusBarColor">@color/dark_bg_primary</item>
+        <item name="android:navigationBarColor">@color/dark_bg_secondary</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        
+        <item name="colorError">@color/status_at_risk</item>
+    </style>
+    <declare-styleable name="HeritageMapView">
+        <attr format="boolean" name="showGrid"/>
+        <attr format="dimension" name="markerSize"/>
+    </declare-styleable>
+</resources>

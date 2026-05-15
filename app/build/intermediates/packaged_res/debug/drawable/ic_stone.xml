@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Stone/tablet body -->
+    <path
+        android:fillColor="#C8A86B"
+        android:pathData="M6,3 C6,3 18,3 18,3 C20,3 21,4 21,6 L21,18 C21,20 20,21 18,21 L6,21 C4,21 3,20 3,18 L3,6 C3,4 4,3 6,3 Z" />
+    <!-- Inscription line 1 -->
+    <path
+        android:fillColor="#5C4300"
+        android:pathData="M7,8.5 L17,8.5 L17,9.5 L7,9.5 Z" />
+    <!-- Inscription line 2 -->
+    <path
+        android:fillColor="#5C4300"
+        android:pathData="M7,11.5 L15,11.5 L15,12.5 L7,12.5 Z" />
+    <!-- Inscription line 3 -->
+    <path
+        android:fillColor="#5C4300"
+        android:pathData="M7,14.5 L13,14.5 L13,15.5 L7,15.5 Z" />
+</vector>

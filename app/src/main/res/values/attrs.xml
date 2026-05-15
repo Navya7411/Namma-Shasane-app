@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for MapView -->
+    <declare-styleable name="HeritageMapView">
+        <attr name="showGrid" format="boolean" />
+        <attr name="markerSize" format="dimension" />
+    </declare-styleable>
+</resources>

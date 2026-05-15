@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-Shasane</string>
+    <string name="app_subtitle">ನಮ್ಮ ಶಾಸನ · Inscription Decoder</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_find">Find</string>
+    <string name="nav_decode">Decode</string>
+    <string name="nav_stories">Stories</string>
+    <string name="nav_trail">Trail</string>
+    <string name="nav_alert">Alert</string>
+
+    <!-- Find Screen -->
+    <string name="nearby_inscriptions">NEARBY INSCRIPTIONS</string>
+    <string name="found_count">5 FOUND</string>
+    <string name="legend_found">Found</string>
+    <string name="legend_verified">Verified</string>
+    <string name="legend_at_risk">At Risk</string>
+    <string name="map_title">Heritage Map</string>
+
+    <!-- Decode Screen -->
+    <string name="decode_title">Decode Inscription</string>
+    <string name="decode_subtitle">Use your camera or upload a photo to decode ancient inscriptions using AI</string>
+    <string name="btn_camera">Scan with Camera</string>
+    <string name="btn_upload">Upload Photo</string>
+    <string name="decode_tip_title">How it works</string>
+    <string name="decode_tip_1">Point your camera at an inscription or upload a clear photo</string>
+    <string name="decode_tip_2">Our AI analyzes the script — Kannada, Sanskrit, Prakrit, Tamil</string>
+    <string name="decode_tip_3">Get the translation, historical context, and dynasty information</string>
+    <string name="decode_supported">Supported Scripts: Old Kannada · Grantha · Brahmi · Telugu</string>
+
+    <!-- Stories Screen -->
+    <string name="stories_title">INSCRIPTION STORIES</string>
+    <string name="stories_subtitle">Historical tales decoded from Karnataka\'s ancient stones</string>
+
+    <!-- Trail Screen -->
+    <string name="trail_title">Heritage Trail</string>
+    <string name="trail_subtitle">Plan your journey through Karnataka\'s inscription sites</string>
+    <string name="trail_start">Start Trail</string>
+    <string name="trail_sites">Heritage Sites</string>
+    <string name="trail_distance_label">Total Distance</string>
+    <string name="trail_duration_label">Est. Duration</string>
+
+    <!-- Alert Screen -->
+    <string name="alert_title">Report Damaged Inscription</string>
+    <string name="alert_subtitle">Help preserve Karnataka\'s heritage by reporting damaged or at-risk inscriptions</string>
+    <string name="alert_location_label">Location / Site Name</string>
+    <string name="alert_location_hint">e.g. Hampi, Ballari District</string>
+    <string name="alert_damage_label">Damage Description</string>
+    <string name="alert_damage_hint">Describe the type and extent of damage observed</string>
+    <string name="alert_contact_label">Your Contact (Optional)</string>
+    <string name="alert_contact_hint">Phone or email for follow-up</string>
+    <string name="alert_photo_btn">Add Photo Evidence</string>
+    <string name="alert_submit_btn">Submit Report</string>
+    <string name="alert_urgency_label">Urgency Level</string>
+    <string name="urgency_low">Low</string>
+    <string name="urgency_medium">Medium</string>
+    <string name="urgency_high">High — Immediate Action Needed</string>
+    <string name="alert_success_title">Report Submitted</string>
+    <string name="alert_success_msg">Thank you for helping protect Karnataka\'s heritage. The Archaeological Survey will be notified.</string>
+
+    <!-- Inscription locations -->
+    <string name="location_belur">Belur, Hassan District</string>
+    <string name="location_hampi">Hampi, Ballari District</string>
+    <string name="location_aihole">Aihole, Bagalkot District</string>
+    <string name="location_shravanabelagola">Shravanabelagola, Hassan District</string>
+    <string name="location_sringeri">Sringeri, Chikkamagaluru District</string>
+
+    <!-- General -->
+    <string name="km_away">km away</string>
+    <string name="century_suffix">th Century</string>
+    <string name="loading">Loading…</string>
+    <string name="no_results">No inscriptions found nearby</string>
+</resources>

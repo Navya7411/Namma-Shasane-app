@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_find">
+
+    <fragment
+        android:id="@+id/navigation_find"
+        android:name="com.namma.shasane.ui.find.FindFragment"
+        android:label="Find"
+        tools:layout="@layout/fragment_find" />
+
+    <fragment
+        android:id="@+id/navigation_decode"
+        android:name="com.namma.shasane.ui.decode.DecodeFragment"
+        android:label="Decode"
+        tools:layout="@layout/fragment_decode" />
+
+    <fragment
+        android:id="@+id/navigation_stories"
+        android:name="com.namma.shasane.ui.stories.StoriesFragment"
+        android:label="Stories"
+        tools:layout="@layout/fragment_stories" />
+
+    <fragment
+        android:id="@+id/navigation_trail"
+        android:name="com.namma.shasane.ui.trail.TrailFragment"
+        android:label="Trail"
+        tools:layout="@layout/fragment_trail" />
+
+    <fragment
+        android:id="@+id/navigation_alert"
+        android:name="com.namma.shasane.ui.alert.AlertFragment"
+        android:label="Alert"
+        tools:layout="@layout/fragment_alert" />
+
+</navigation>

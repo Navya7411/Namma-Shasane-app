@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/fragment_stories.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_stories.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/item_story.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/fragment_find.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_find.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/item_inscription.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/item_inscription.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/fragment_alert.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_alert.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/fragment_trail.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_trail.xml"
+    },
+    {
+        "merged": "com.namma.shasane.app-mergeDebugResources-48:/layout/fragment_decode.xml",
+        "source": "com.namma.shasane.app-main-51:/layout/fragment_decode.xml"
+    }
+]
