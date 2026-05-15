@@ -112,7 +112,7 @@ Combines AI, mapping, and mobile technology for social impact.
 **Navya7411**  
 Android & AI Enthusiast
 
----
+
 
 # ⭐ GitHub Repository Goals
 
